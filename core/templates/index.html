@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+
+{% block content %}
+<div class="bg-[url('https://readymadeui.com/images/bg-gradient.webp')] bg-cover bg-center">
+
+
+   <!-- hero section -->
+   <section class="px-4 md:px-8 py-12 md:py-20">
+      <div class="relative max-w-7xl mx-auto">
+         <div class="max-w-4xl mx-auto text-center">
+            <h1
+               class="text-4xl text-slate-900 font-bold !leading-tight mb-6 md:text-5xl lg:text-6xl">
+               Boost Your Productivity with <span class="text-blue-700">EffortlessTask</span>
+            </h1>
+            <p class="text-slate-600 text-lg leading-relaxed">
+               The all-in-one app to finally master your workflow. Organize tasks effortlessly, focus without
+               distractions,
+               and accomplish more every day—just like 100,000+ professionals.
+            </p>
+
+            <div class="mt-8 flex items-center justify-center flex-wrap gap-4">
+               <a href="#"
+                  class="py-2.5 px-4 text-sm rounded-md font-semibold text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Start Free Trial
+               </a>
+               <a href="#"
+                  class="py-2.5 px-4 text-slate-900 text-sm font-semibold rounded-md bg-white border border-slate-300 transition-colors hover:bg-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  How It Works
+               </a>
+            </div>
+         </div>
+
+         <div class="max-w-5xl w-full mx-auto mt-16 md:mt-20">
+            <img src="https://readymadeui.com/images/kpi-img-3.webp" class="w-full" alt="kpi image" />
+         </div>
+      </div>
+   </section>
+</div>
+
+{% endblock content %}
